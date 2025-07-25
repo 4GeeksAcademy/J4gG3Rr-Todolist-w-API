@@ -1,11 +1,25 @@
-/* 
+.oculto {
+  margin-left: 90%;
+  display: none;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contenedor:hover .oculto {
+  display: inline-block;
+}
 
-*/
+.acordeon{
+  width: 99%;
+  margin-bottom: 0%;
+}
+
+.acordeon-dos{
+  width: 98%;
+  margin-bottom: 0%;
+  background-color: rgb(201, 200, 200);
+}
+
+.acordeon-tres{
+  width: 97%;
+  margin-bottom: 1%;
+  background-color:rgb(162, 161, 161) ;
+}
